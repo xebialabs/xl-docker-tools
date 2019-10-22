@@ -54,6 +54,7 @@ local.properties
 *.ipr
 *.ids
 *.orig
+*.xml
 classes/
 out/
 
