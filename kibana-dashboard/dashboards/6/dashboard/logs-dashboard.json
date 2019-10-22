@@ -1,7 +1,7 @@
 {
   "objects": [{
     "attributes": {
-      "title": "XLI MODULES LOGS",
+      "title": "XLPLATFORM MODULES LOGS",
       "description": "",
       "hits": 0,
       "columns": [
@@ -16,14 +16,14 @@
         "searchSourceJSON": "{\"index\":\"logstash-*\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"logstash-*\",\"type\":\"phrases\",\"key\":\"kubernetes.container_name.keyword\",\"value\":\"registry, fluentd-es, kibana-logging, elasticsearch-logging, kibana-dashboards\",\"params\":[\"registry\",\"fluentd-es\",\"kibana-logging\",\"elasticsearch-logging\"],\"negate\":true,\"disabled\":false,\"alias\":null},\"query\":{\"bool\":{\"should\":[{\"match_phrase\":{\"kubernetes.container_name.keyword\":\"registry\"}},{\"match_phrase\":{\"kubernetes.container_name.keyword\":\"fluentd-es\"}},{\"match_phrase\":{\"kubernetes.container_name.keyword\":\"kibana-logging\"}},{\"match_phrase\":{\"kubernetes.container_name.keyword\":\"elasticsearch-logging\"}}],\"minimum_should_match\":1}},\"$state\":{\"store\":\"appState\"}}]}"
       }
     },
-    "id": "xli-logs",
+    "id": "xlplatform-logs",
     "type": "search",
     "updated_at": "2017-12-22T14:57:10.009Z",
     "version": 2
   }, {
     "attributes": {
-      "title": "XLI Module selection",
-      "visState": "{\"title\":\"XLI Module selection\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1533042035371\",\"indexPattern\":\"logstash-*\",\"fieldName\":\"kubernetes.labels.app.keyword\",\"parent\":\"\",\"label\":\"Module name\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":50,\"order\":\"desc\"}},{\"id\":\"1533042059856\",\"indexPattern\":\"logstash-*\",\"fieldName\":\"kubernetes.pod_name.keyword\",\"parent\":\"1533042035371\",\"label\":\"Pod name\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":50,\"order\":\"desc\"}}],\"updateFiltersOnChange\":false,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
+      "title": "XLPLATFORM Module selection",
+      "visState": "{\"title\":\"XLPLATFORM Module selection\",\"type\":\"input_control_vis\",\"params\":{\"controls\":[{\"id\":\"1533042035371\",\"indexPattern\":\"logstash-*\",\"fieldName\":\"kubernetes.labels.app.keyword\",\"parent\":\"\",\"label\":\"Module name\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":50,\"order\":\"desc\"}},{\"id\":\"1533042059856\",\"indexPattern\":\"logstash-*\",\"fieldName\":\"kubernetes.pod_name.keyword\",\"parent\":\"1533042035371\",\"label\":\"Pod name\",\"type\":\"list\",\"options\":{\"type\":\"terms\",\"multiselect\":true,\"size\":50,\"order\":\"desc\"}}],\"updateFiltersOnChange\":false,\"useTimeFilter\":false,\"pinFilters\":false},\"aggs\":[]}",
       "uiStateJSON": "{}",
       "description": "",
       "version": 1,
@@ -31,7 +31,7 @@
         "searchSourceJSON": "{}"
       }
     },
-    "id": "xli-module-select",
+    "id": "xlplatform-module-select",
     "type": "visualization",
     "updated_at": "2017-12-22T16:09:12.433Z",
     "version": 4
@@ -52,7 +52,7 @@
     "version": 1
   }, {
     "attributes": {
-      "title": "XLI-LOGS-DASHBOARD",
+      "title": "XLPLATFORM-LOGS-DASHBOARD",
       "hits": 0,
       "description": "",
       "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":15,\"i\":\"1\"},\"version\":\"6.3.2\",\"type\":\"visualization\",\"id\":\"xli-module-select\",\"embeddableConfig\":{}},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":15,\"w\":48,\"h\":17,\"i\":\"2\"},\"version\":\"6.3.2\",\"type\":\"search\",\"id\":\"xli-logs\",\"embeddableConfig\":{}},{\"gridData\":{\"w\":24,\"h\":15,\"x\":24,\"y\":0,\"i\":\"3\"},\"version\":\"6.3.2\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"id\":\"error-logs\",\"embeddableConfig\":{}}]",
@@ -63,7 +63,7 @@
         "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
       }
     },
-    "id": "xli-logs-dashboard",
+    "id": "xlplatform-logs-dashboard",
     "type": "dashboard",
     "updated_at": "2017-12-22T16:13:37.084Z",
     "version": 5
