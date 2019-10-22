@@ -55,7 +55,7 @@
       "title": "XLPLATFORM-LOGS-DASHBOARD",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":15,\"i\":\"1\"},\"version\":\"6.3.2\",\"type\":\"visualization\",\"id\":\"xli-module-select\",\"embeddableConfig\":{}},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":15,\"w\":48,\"h\":17,\"i\":\"2\"},\"version\":\"6.3.2\",\"type\":\"search\",\"id\":\"xli-logs\",\"embeddableConfig\":{}},{\"gridData\":{\"w\":24,\"h\":15,\"x\":24,\"y\":0,\"i\":\"3\"},\"version\":\"6.3.2\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"id\":\"error-logs\",\"embeddableConfig\":{}}]",
+      "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":0,\"w\":24,\"h\":15,\"i\":\"1\"},\"version\":\"6.3.2\",\"type\":\"visualization\",\"id\":\"xlplatform-module-select\",\"embeddableConfig\":{}},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":15,\"w\":48,\"h\":17,\"i\":\"2\"},\"version\":\"6.3.2\",\"type\":\"search\",\"id\":\"xlplatform-logs\",\"embeddableConfig\":{}},{\"gridData\":{\"w\":24,\"h\":15,\"x\":24,\"y\":0,\"i\":\"3\"},\"version\":\"6.3.2\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"id\":\"error-logs\",\"embeddableConfig\":{}}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
       "version": 1,
       "timeRestore": false,
